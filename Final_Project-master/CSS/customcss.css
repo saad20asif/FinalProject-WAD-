@@ -1,0 +1,291 @@
+/*Register Page Css*/
+*{
+    box-sizing: border-box;
+    font-family: 'Footlight MT Light',sans-serif;
+    max-width: 100%;
+    cursor: pointer;
+
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.regis input{
+    color: white;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+
+/*
+login page css*/
+
+.navbar-toggler{
+    width: 6%;
+}
+
+header{
+    background-color: green;
+}
+header > nav{
+    height: 100px;
+    margin-bottom: 5px;
+    opacity: 0.6;
+}
+header .navbar-brand{
+    font-size: xx-large;
+}
+header .list{
+    font-size: large;
+}
+#mid{
+    max-width: 100%;
+    height: 480px;
+    background: url("../media/pic1000.jpg") no-repeat right;
+    background-size: cover;
+    /*opacity: 0.7;*/
+}
+#Main-content{
+    padding-top: 70px;
+}
+#Main-content h1{
+    color: #189834;
+    font-size: 39px;
+    text-decoration: underline;
+}
+#Main-content form button{
+    letter-spacing: 2px;
+    box-shadow: inset -4px -6px 20px 0 #b8da32;
+    max-width: 20%;
+}
+#Main-content #for{
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 0;
+    font-weight: bold;
+}
+#Main-content #for:hover{
+    text-decoration: underline;
+}
+@media (max-width: 576px){
+    #mid{
+        height: 400px;
+        background: url("../media/pic525.jpeg") no-repeat right;
+        background-size: cover;
+    }
+    .navbar-toggler{
+        width: 20%;
+    }
+}
+.cart{
+    color: #189834;
+    font-size: xx-large;
+}
+#rem{
+    font-size: 18px;
+    color: white;
+}
+#msg{
+    color: red;
+    font-family: monospace;
+}
+#msg2{
+    color: red;
+    font-family: monospace;
+}
+#add{
+    border-radius: 60%;
+    background-color: red;
+    font-size: initial;
+    color: #f5e8e8;
+}
+.data:hover{
+    border: 1px solid gray;
+    box-shadow: -1px 1px 20px 11px #197d6b;
+}
+/*
+Contact Us Css*/
+
+
+#pic{
+    max-width: 100%;
+    height: 480px;
+    background: url("../media/pic1000.jpg") no-repeat right;
+    background-size: cover;
+}
+
+
+
+/*
+
+About Page CSS
+*/
+
+
+#main {
+    background-color: white;
+}
+
+.disc{
+    text-align: justify;
+    font-size: 22px;
+    align-content: center;
+    color: green;
+}
+.disc h1{
+    color: mediumspringgreen;
+}
+
+
+.topic{
+    font-size: 60px;
+    color: greenyellow;
+    text-align: center;
+}
+
+
+/*
+Home Page Css*/
+
+.gape{
+    margin: 4%;
+}
+/*.hom{*/
+    /*height: 330px;*/
+/*}*/
+
+/* Forget page */
+.fort{
+    height: 495px;
+}
+.fpass{
+    width: 30%;
+}
+#forget{
+    background:url("../media/pic1000.jpg");
+    background-size: cover;
+}
+#forget p
+{
+    margin-bottom: 41px;
+    color: #f8f9fa;
+    font-size: x-large;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+}
+.backe button{
+    letter-spacing: 2px;
+    box-shadow: inset -4px -6px 20px 0 #b8da32;
+    max-width: 20%;
+}
+ /* Create */
+#create {
+    height: 490px;
+}
+#regex:invalid {
+    background-color: #343a40;
+}
+#regex {
+    background-color: #afafaf;
+}
